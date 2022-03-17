@@ -352,7 +352,9 @@ do you see?
 
 ```{r plot-proportion-of-boys-over-time}
 # type your code for the Exercise here, and Knit
-
+ggplot(data = arbuthnot, aes(x = year, y = boys)) +
+  geom_line()+
+  geom_point()
 ```
 
 Finally, in addition to simple mathematical operators like subtraction and 
@@ -401,7 +403,7 @@ your workspace.
 
 ```{r variables-in-present}
 # type your code for Question 4 here, and Knit
-
+3
 ```
 
 <div id="exercise">
@@ -411,7 +413,7 @@ function and `present$year` as its argument.
 
 ```{r years-in-present-data}
 # type your code for Exercise here, and Knit
-
+range(present$year)
 ```
 
 5. Calculate the total number of births for each year and store these values in a new 
@@ -427,7 +429,14 @@ decreased over time.
 
 ```{r prop-boys-over-time}
 # type your code for Question 5 here, and Knit
-
+present <- present %>%
+  mutate(total = boys + girls)
+present <- present %>%
+  mutate(prop_boys = boys / total)
+ggplot(data = present, aes(x = year, y = prop_boys))+
+  geom_line()+
+  geom_point()
+#The prop boys is decreasing
 ```
 
 
@@ -442,7 +451,11 @@ variable which of the following statements is true?
 
 ```{r more-boys-per-year}
 # type your code for Question 6 here, and Knit
-
+present <- present %>%
+  mutate(more_boys = boys > girls)
+ggplot(data = present, aes(x = year, y = more_boys))+
+  geom_line()
+#every year, there are more boys born than girls
 ```
 
 
@@ -457,7 +470,10 @@ variable which of the following statements is true?
 
 ```{r prop-boy-girl-over-time}
 # type your code for Question 7 here, and Knit
-
+present <- present %>%
+  mutate(prop_boy_girl = boys / girls)
+ggplot(data = present, aes(x = year, y = prop_boy_girl))+
+  geom_line()
 ```
 
 8. In what year did we see the most total number of births in the U.S.? *Hint:* Sort 
@@ -476,9 +492,8 @@ descending order).
 ```{r most-total-births}
 # type your code for Question 8 here
 # sample code is provided below, edit as necessary, uncomment, and then Knit
-#present %>%
-#  mutate(total = ?) %>%
-#  arrange(desc(total))
+present <- present %>%
+  arrange(desc(total))
 ```
 
 ## Resources for learning R and working in RStudio
