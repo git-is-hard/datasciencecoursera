@@ -1,0 +1,178 @@
+1," ""Don't care"" conditions are when certain combinations of values of variables never occur, and therefore the corresponding output never occurs."
+1, A bit near the center of a rotating disk travels past a fixed point slower than a bit on the outside.
+1, A branch can be either forward or backward.
+1, A combinational circuit consists of n binary inputs and m binary outputs.
+1," A computer must be able to process, store, move, and control data."
+1, A disadvantage of memory-mapped I/O is that valuable memory address space is used up.
+1, A key requirement for PCIe is high capacity to support the needs of higher data rate I/O devices such as Gigabit Ethernet.
+1, A multicore computer combines two or more processors on a single piece of silicon.
+1, A number of chips can be grouped together to form a memory bank.
+1, A number with both an integer and fractional part has digits raised to both positive and negative powers of 10.
+1," A particular architecture may span many years and encompass a number of different computer models, its organization changing with changing technology."
+1, A potential advantage to having only dedicate L2 caches on the chip is that each core enjoys more rapid access to its private L2 cache.
+1, A register is a digital circuit used within the CPU to store one or more bits of data.
+1, A removable disk can be removed and replaced with another disk.
+1, A set of I/O modules is a key element of a computer system.
+1, A static RAM will hold its data as long as power is supplied to it.
+1," A typical computer system is equipped with a hierarchy of memory subsystems, some internal to the system and some external."
+1, A wafer is made of silicon and is broken up into chips which consists of many gates and/or memory cells plus a number of input and output attachment points.
+1, Actual floating-point representations include a special bit pattern to designate zero.
+1, Addition and subtraction can be performed on numbers in twos complement notation by treating them as unsigned integers.
+1, Addresses are a form of data.
+1, All DRAMs require a refresh operation.
+1," All of the Pentium processors include two on-chip L1 caches, one for data and one for instructions."
+1, Almost all RISC instructions use simple register addressing.
+1," Although convenient for computers, the binary system is exceedingly cumbersome for human beings."
+1, An advantage of biased representation is that nonnegative floating-point numbers can be treated as integers for comparison purposes.
+1, An advantage of using a shared L2 cache on the chip is that data shared by multiple cores is not replicated at the shared cache level.
+1, An attractive feature of an SMP is that the existence of multiple processors is transparent to the user.
+1, An error-correcting code enhances the reliability of the memory at the cost of added complexity.
+1," An I/O channel has the ability to execute I/O instructions, which gives it complete control over I/O operations."
+1, An I/O module must recognize one unique address for each peripheral it controls.
+1, An interrupt is a hardware-generated signal to the processor.
+1, An L1 cache that does not connect directly to the bus cannot engage in a snoopy protocol.
+1, An SMP operating system manages processor and other computer resources so that the user perceives a single operating system controlling system resources.
+1, Any Boolean function can be implemented in electronic form as a network of gates.
+1," ARM processors support data types of 8 (byte), 16 (halfword), and 32 (word) bits in length."
+1, ARM provides a versatile virtual memory system architecture that can be tailored to the needs of the embedded system designer.
+1," At a top level, a computer consists of CPU, memory, and I/O components."
+1, Backward compatible means that the programs written for the older machines can be executed on the new machine.
+1," Because all devices on a synchronous bus are tied to a fixed clock rate, the system cannot take advantage of advances in device performance."
+1," Because of the inherent binary nature of digital computer components, all forms of data within computers are represented by various binary codes."
+1," Because the 82C55A is programmable via the control register, it can be used to control a variety of simple peripheral devices."
+1, Both batch multiprogramming and time sharing use multiprogramming.
+1, Both clusters and symmetric multiprocessors provide a configuration with multiple processors to support high-demand applications.
+1, Both sequential access and direct access involve a shared read-write mechanism.
+1, Both sign-magnitude representation and twos complement representation use the most significant bit as a sign bit.
+1," Both the structure and functioning of a computer are, in essence, simple."
+1, Bus arbitration makes use of vectored interrupts.
+1, Changes in technology not only influence organization but also result in the introduction of more powerful and more complex architectures.
+1," Combinational circuits are often referred to as ""memoryless"" circuits because their output depends only on their current input and no history of prior inputs is retained."
+1," Compared with addition and subtraction, multiplication is a complex operation, whether performed in hardware of software."
+1, Computer systems contain a number of different buses that provide pathways between components at various levels of the computer system hierarchy.
+1, Computers are classified into generations based on the fundamental hardware technology employed.
+1, Condition codes facilitate multiway branches.
+1, Database management systems and database applications are one area in which multicore systems can be used effectively.
+1, Designers wrestle with the challenge of balancing processor performance with that of main memory and other computer components.
+1," Even if an individual application does not scale to take advantage of a large number of threads, it is still possible to gain from multicore architecture by running multiple instances of the application in parallel."
+1, Events in the digital computer are synchronized to a clock pulse so that changes occur only when a clock pulse occurs.
+1, Flash memory becomes unusable after a certain number of writes.
+1," For each 1 on the multiplier, an add and a shift operation are required; but for each 0 only a shift is required."
+1, Hexadecimal notation is more compact than binary notation.
+1, IBM's System/360 was the industry's first planned family of computers.
+1, In a traditional scalar organization there is a single pipelined functional unit for integer operations and one for floating-point operations.
+1," In a volatile memory, information decays naturally or is lost when electrical power is switched off."
+1," In effect, the Pentium 4 architecture implements a CISC instruction set architecture on a RISC microarchitecture."
+1," In general, a decoder has n inputs and 2^n outputs."
+1," In general, the more devices attached to the bus, the greater the bus length and hence the greater the propagation delay."
+1," In the absence of parentheses, the AND operation takes precedence over the OR operation."
+1, In-order completion requires more complex instruction issue logic than out-of-order completion.
+1, Instruction pipelining is a powerful technique for enhancing performance but requires careful design to achieve optimum results with reasonable complexity.
+1, Intel's 4004 was the first chip to contain all of the components of a CPU on a single chip.
+1, Interfaces between the computer and peripherals is an example of an organizational attribute.
+1, Interrupt processing allows an application program to be suspended in order that a variety of interrupt conditions can be serviced and later resumed.
+1, It has become common practice to use a symbolic representation of machine instructions.
+1, It has become possible to have a cache on the same chip as the processor.
+1," It is common for programs, both system and application, to continue to exhibit new bugs after years of operation."
+1, It is extremely easy to convert between binary and hexadecimal notation.
+1, It is possible to improve pipeline performance by automatically rearranging instructions within a program so that branch instructions occur later than actually desired.
+1, It is the responsibility of the processor to periodically check the status of the I/O module until it finds that the operation is complete.
+1, John Mauchly and John Eckert designed the ENIAC.
+1, Magnetic disks are the foundation of external memory on virtually all computer systems.
+1, Microprogramming eases the task of designing and implementing the control unit and provides support for the family concept.
+1," Most machines provide the basic arithmetic operations of add, subtract, multiply, and divide."
+1, Negative powers of 10 are used to represent the positions of the numbers for decimal fractions.
+1, No single technology is optimal in satisfying the memory requirements for a computer system.
+1, One advantage of linking the addressing mode to the operand rather than the opcode is that any addressing mode can be used with any opcode.
+1, One boundary where the computer designer and the computer programmer can view the same machine is the machine instruction set.
+1, One drawback of sign-magnitude representation is that there are two representations of 0.
+1, One of the major problems in designing an instruction pipeline is assuring a steady flow of instructions to the initial stages of the pipeline.
+1, One of the trade-offs of floating-point math is that many calculations produce results that are not exact and have to be rounded to the nearest value that the notation can represent.
+1, One of the traditional ways of describing processor architecture is in terms of the number of addresses contained in each instruction.
+1, Pipelining is a means of introducing parallelism into the essentially sequential nature of a machine-instruction program.
+1, Privileged instructions are certain instructions that are designated special and can be executed only by the monitor.
+1, Program execution consists of repeating the process of instruction fetch and instruction execution.
+1, RAID is a set of physical disk drives viewed by the operating system as a single logical drive.
+1, RAID level 0 is not a true member of the RAID family because it does not include redundancy to improve performance.
+1, RAM must be provided with a constant power supply.
+1, Register addressing is similar to direct addressing with the only difference being that the address field refers to a register rather than a main memory address.
+1, Register renaming eliminates antidependencies and output dependencies.
+1," Resources include: memories, caches, buses, and register-file ports."
+1, RISC processors are more responsive to interrupts because interrupts are checked between rather elementary operations.
+1, Scheduling and memory management are the two OS functions that are most relevant to the study of computer organization and architecture.
+1, Semiconductor memory comes in packaged chips.
+1, Software cache coherence schemes attempt to avoid the need for additional hardware circuitry and logic by relying on the compiler and operating system to deal with the problem.
+1, Swapping is an I/O operation.
+1," Symmetric multiprocessors (SMPs) are one of the earliest, and still the most common, example of parallel organization."
+1, The ARM11 MPCore is an example of the L1 cache being divided into instruction and data caches.
+1," The base with index and displacement mode sums the contents of the base register, the index register, and a displacement to form the effective address."
+1, The basic element of a semiconductor memory is the memory cell.
+1, The basic function of a computer is to execute programs.
+1, The cache is capable of handling global as well as local variables.
+1," The Cortex-A8 targets a wide variety of mobile and consumer applications including mobile phones, set-top boxes, gaming consoles and automotives navigation/entertainment systems."
+1, The cycle time of an instruction pipeline is the time needed to advance a set of instructions one stage through the pipeline.
+1, The decimal system is a special case of a positional number system with radix 10 and with digits in the range 0 through 9.
+1, The delay by the propagation time of signals through the gate is known as the gate delay.
+1, The disadvantage of immediate addressing is that the size of the number is restricted to the size of the address field.
+1, The disadvantage of the software poll is that it is time consuming.
+1, The exception modes have full access to system resources and can change modes freely.
+1, The focus of MMX technology is multimedia programming.
+1, The head must generate or sense an electromagnetic field of sufficient magnitude to write and read properly.
+1, The hierarchical nature of complex systems is essential to both their design and their description.
+1, The IAS is the prototype of all subsequent general-purpose computers.
+1, The IAS operates by repetitively performing an instruction cycle.
+1, The increasingly difficult engineering challenge related to processor logic is one of the reasons that an increasing fraction of the processor chip is devote to the simpler memory logic.
+1, The instruction set is the programmer's means of controlling the processor.
+1, The key to the design of a supercomputer or array processor is to recognize that the main task is to perform arithmetic operations on arrays or vectors of floating-point numbers.
+1, The memory transfer rate has not kept up with increases in processor speed.
+1, The method of calculating the EA is the same for both base-register addressing and indexing.
+1, The method of using the same lines for multiple purposes is known as time multiplexing.
+1, The most important measure of performance for a processor is the rate at which it executes instructions.
+1, The most important system program is the OS.
+1, The number of bits used to represent various data types is an example of an architectural attribute.
+1," The numbers represented in floating-point notation are not spaced evenly along the number line, as are fixed-point numbers."
+1," The objective with NUMA is to maintain a transparent system wide memory while permitting multiple multiprocessor nodes, each with its own bus or other internal interconnect system."
+1, The operation of the digital computer is based on the storage and processing of binary data.
+1, The operation to be performed is specified by a binary code known as the operation code.
+1, The organizational changes in processor design have primarily been focused on increasing instruction-level parallelism so that more work could be done in each clock cycle.
+1, The OS must determine how much processor time is to be devoted to the execution of a particular user program.
+1, The Pentium II includes hardware for both segmentation and paging.
+1, The potential performance benefits of a multicore organization depend on the ability to effectively exploit the parallel resources available to the application.
+1, The predict-never-taken approach is the most popular of all the branch prediction methods.
+1, The prefetch buffer is a memory cache located on the RAM chip.
+1, The principal price to pay for variable-length instructions is an increase in the complexity of the processor.
+1, The processor needs to store instructions and data temporarily while an instruction is being executed.
+1, The processor requires its own local memory.
+1, The register file employs much shorter addresses than addresses for cache and memory.
+1, The register file is on the same chip as the ALU and control unit.
+1, The reorder buffer is temporary storage for results completed out of order that are then committed to the register file in program order.
+1, The schedulers are responsible for retrieving micro-ops from the micro-op queues and dispatching these for execution.
+1, The simplest instruction issue policy is to issue instructions in the exact order that would be achieved by sequential execution (in-order issue) and to write results in that same order (in-order completion).
+1, The SSDs now on the market use a type of semiconductor memory referred to as flash memory.
+1, The superscalar approach depends on the ability to execute multiple instructions in parallel.
+1, The superscalar approach has now become the standard method for implementing high-performance microprocessors.
+1, The term SMP refers to a computer hardware architecture and also to the operating system behavior that reflects that architecture.
+1, The textbook for this course is about the structure and function of computers.
+1, The thermal management unit monitors digital sensors for high-accuracy die temperature measurements.
+1, The two traditional forms of RAM used in computers are DRAM and SRAM.
+1, The value of the mode field determines which addressing mode is to be used.
+1," The value to be loaded into the program counter can come from a binary counter, the instruction register, or the output of the ALU."
+1, The x86 is equipped with a variety of addressing modes intended to allow the efficient execution of high-level languages.
+1, There are 50 tens in the number 509.
+1, There are typically hundreds of sectors per track and they may be either fixed or variable lengths.
+1," There is a tremendous variety of products, from single-chip microcomputers costing a few dollars to supercomputers costing tens of millions of dollars that can rightly claim the name ""computer""."
+1, Timing refers to the way in which events are coordinated on the bus.
+1, To achieve greatest performance the memory must be able to keep up with the processor.
+1, To handle any possible pattern of calls and returns the number of register windows would have to be unbounded.
+1, True data dependency is also called flow dependency or read after write (RAW) dependency.
+1, Unrolling can improve performance by increasing instruction parallelism by improving pipeline performance.
+1," When large volumes of data are to be moved, a more efficient technique is direct memory access (DMA)."
+1," While the processor is in user mode the program being executed is unable to access protected system resources or to change mode, other than by causing an exception to occur."
+1, With a batch operating system the user does not have direct access to the processor.
+1, With a fixed-point notation it is possible to represent a range of positive and negative integers centered on or near 0.
+1," With direct addressing, the length of the address field is usually less than the word length, thus limiting the address range."
+1," With multithreading the instruction stream is divided into several smaller streams, known as threads, such that the threads can be executed in parallel."
+1," With simple, one cycle instructions, there is little or no need for microcode."
+1, With superscalar organization increased performance can be achieved by increasing the number of parallel pipelines.
+1, With write back updates are made only in the cache.
+1, Within the processor there is a set of registers that function as a level of memory above main memory and cache in the hierarchy.
