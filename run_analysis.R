@@ -25,18 +25,18 @@ wanted_col = grep("[Ss]td|[Mm]ean", features[, 2])
 #read the train record
 x_train <- read.table("UCI HAR Dataset/train/x_train.txt")[wanted_col]
 y_train <- read.table("UCI HAR Dataset/train/y_train.txt", col.names = "code")
-s_train <- read.table("UCI HAR Dataset/train/subject_train")
+s_train <- read.table("UCI HAR Dataset/train/subject_train.txt")
 
 #rename the col.names of x_train
-names(x_train) <- features(wanted_col, 2)
+names(x_train) <- features[wanted_col, 2]
                           
 #read the test record
 x_test <- read.table("UCI HAR Dataset/test/x_test.txt")[wanted_col]
 y_test <- read.table("UCI HAR Dataset/test/y_test.txt", col.names = "code")                          
-s_test <- read.table("UCI HAR Dataset/subject_test.txt")  
+s_test <- read.table("UCI HAR Dataset/test/subject_test.txt")  
                           
 #rename the col.names of x_test
-names(x_test) <- features(wanted_col, 2)
+names(x_test) <- features[wanted_col, 2]
                           
 #merge the data
 train <- cbind(s_train, y_train, x_train)
